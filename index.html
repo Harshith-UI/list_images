@@ -29,7 +29,7 @@
         box.innerHTML = `
           <img src="${img.url}" alt="${img.key}" />
           <div class="filename">${img.key.split('/').pop()}</div>
-          <div class="uploaded"><b>Uploaded:</b> ${new Date(img.lastModified).toLocaleString()}</div>
+          <div class="Entered at:"><b>Uploaded:</b> ${new Date(img.lastModified).toLocaleString()}</div>
         `;
         gallery.appendChild(box);
       });
